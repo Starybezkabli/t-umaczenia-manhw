@@ -111,17 +111,20 @@ manhwa-pl/
 </main>
 
 <footer>
-    <p>© 2026 Manhwa PL | tłumaczenia – non profit</p>
+    <p>© 2026 Manhwy PL | tłumaczenia</p>
 </footer>
 
 <script src="script.js"></script>
 </body>
 </html>
+
+<css>
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
-    color: #252425;
+    color: #333;
 }
 
 header {
@@ -180,11 +183,4 @@ footer {
     background-color: #ddd;
     text-align: center;
     padding: 15px;
-}
-function dolacz() {
-    alert(
-        "Dziękujemy za zainteresowanie!\n\n" +
-        "Napisz do nas na Discordzie,\n" +
-        "napisz co chiał/chciała byś robić."
-    );
 }
